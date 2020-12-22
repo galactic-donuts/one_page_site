@@ -1,0 +1,71 @@
+* {
+    margin: 0; /*removes the browsers default margin*/
+    padding: 0; /*removes the browsers default padding*/
+    box-sizing: border-box;
+    }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-image:linear-gradient(45deg,black,firebrick);
+  color: white;
+  text-transform: capitalize;
+ font-family: 'Overpass', sans-serif;
+  height: 40px;
+  font-size: 25px;
+}
+
+body {
+  background-image:url('https://art.ngfiles.com/images/467000/467118_metalbladegamer_generic-space-background.gif');
+  background-size: cover;
+ 
+}
+
+#title {
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  margin:0 auto; /*width has to be set to work */
+  color: firebrick;
+  font-family: 'Overpass', sans-serif;
+  text-transform: capitalize;
+  width:300px;
+  margin-top: 50px;
+}
+
+#image-one {
+  width: 300px;
+  height: 210px;
+  border-radius: 20px;
+  padding: 10px;
+  
+
+}
+
+.group-one {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+#box-one {
+  width: 400px;
+  height: 200px;
+  text-align: justify;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 10px;
+  background-image:linear-gradient(0deg,firebrick,black);
+  padding: 5px;
+  border-radius:10px;
+  overflow:auto; /* has to be here for the transparent scrollbar to work */
+
+  
+  
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* makes scrollbar transparent */
+}
